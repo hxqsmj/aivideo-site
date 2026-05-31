@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hxqsmj.ccwu.cc/sitemap.xml
