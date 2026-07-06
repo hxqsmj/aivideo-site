@@ -103,3 +103,10 @@ body {
     .links-grid { grid-template-columns: 1fr 1fr; }
     .article-page { padding: 24px; }
 }
+
+/* === Breadcrumb === */
+.breadcrumb { margin-bottom: 16px; font-size: 0.88rem; color: #718096; }
+.breadcrumb a { color: #2563eb; text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb .sep { margin: 0 8px; color: #cbd5e0; }
+.breadcrumb .current { color: #4a5568; }
