@@ -1,0 +1,13 @@
+{
+    "name": "AI视频生成器推荐",
+    "short_name": "AI视频工具",
+    "description": "2026年最全免费AI视频工具评测与排名",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1a1a2e",
+    "theme_color": "#1a1a2e",
+    "icons": [
+        { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+    ],
+    "lang": "zh-CN"
+}

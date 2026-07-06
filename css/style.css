@@ -1,4 +1,4 @@
-/* === Reset & Base === */
+﻿/* === Reset & Base === */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { font-size: 16px; scroll-behavior: smooth; }
 body {
@@ -235,3 +235,22 @@ body {
 .breadcrumb a:hover { text-decoration: underline; }
 .breadcrumb .sep { margin: 0 8px; color: #cbd5e0; }
 .breadcrumb .current { color: #4a5568; }
+
+/* === Banner Images === */
+.banner-img {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    aspect-ratio: 800/300;
+    margin: 0 auto 24px;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.hero-img {
+    display: block;
+    margin: 0 auto 16px;
+    max-width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}

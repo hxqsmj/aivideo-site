@@ -1,0 +1,18 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#bg3)"/>
+  <circle cx="680" cy="60" r="100" fill="url(#accent3)" opacity="0.1"/>
+  <circle cx="120" cy="240" r="60" fill="url(#accent3)" opacity="0.08"/>
+  <text x="400" y="120" text-anchor="middle" fill="white" font-size="34" font-weight="bold" font-family="sans-serif">💰 AI视频变现指南</text>
+  <text x="400" y="170" text-anchor="middle" fill="#fcd34d" font-size="16" font-family="sans-serif">从工具到收益 · 完整赚钱路径</text>
+  <rect x="320" y="200" width="160" height="3" rx="2" fill="url(#accent3)"/>
+</svg>
