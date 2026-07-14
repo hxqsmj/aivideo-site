@@ -22,7 +22,7 @@ rootPages.forEach(filename => {
   let html = fs.readFileSync(filepath, 'utf8');
 
   // Add verification meta before </head>
-  const verifMeta = `  <meta name="google-site-verification" content="GOOGLE_VERIFICATION_CODE" />
+  const verifMeta = `  <meta name="google-site-verification" content="OesqPpCgmC542oErTdI20knbd1wuc-twWvams4ZXt84" />
     <meta name="baidu-site-verification" content="codeva-BAIDU_VERIFICATION_CODE" />`;
 
   html = html.replace('</head>', verifMeta + '\n</head>');
@@ -72,7 +72,7 @@ articleFiles.forEach(filename => {
 
   // Add verification meta if missing
   if (!html.includes('google-site-verification')) {
-    const verifMeta = `  <meta name="google-site-verification" content="GOOGLE_VERIFICATION_CODE" />
+    const verifMeta = `  <meta name="google-site-verification" content="OesqPpCgmC542oErTdI20knbd1wuc-twWvams4ZXt84" />
     <meta name="baidu-site-verification" content="codeva-BAIDU_VERIFICATION_CODE" />`;
     html = html.replace('</head>', verifMeta + '\n</head>');
   }
