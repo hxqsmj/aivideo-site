@@ -1,0 +1,6 @@
+# 环境变量（含 API Token）
+.env
+.env.local
+
+# Node
+node_modules/

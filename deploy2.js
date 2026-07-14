@@ -1,8 +1,8 @@
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
-const token = "cfut_FJwbVlx5mFZmKYJrNNZdVpb2b4O8bPIAnPPTYuD5c6cf9b91";
-const accountId = "6e875dc1548f2930fd28434e997a1f3b";
+const token = process.env.CLOUDFLARE_API_TOKEN;
+const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
 const projectName = "aivideo-site";
 
 function api(method, p, body) {
@@ -22,7 +22,7 @@ async function main() {
   
   // First let's try a simpler approach: create a deployment with uploaded files
   // Get list of files
-  const dir = 'I:\\aivideosite';
+  const dir = __dirname;
   const allFiles = [];
   
   function walk(dirPath) {

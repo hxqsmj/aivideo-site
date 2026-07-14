@@ -1,0 +1,20 @@
+/*
+  Cache-Control: public, max-age=0, s-maxage=86400
+
+/articles/*
+  Cache-Control: public, max-age=0, s-maxage=86400
+
+*.css
+  Cache-Control: public, max-age=86400, immutable
+
+*.js
+  Cache-Control: public, max-age=86400, immutable
+
+*.svg
+  Cache-Control: public, max-age=86400, immutable
+
+*.xml
+  Cache-Control: public, max-age=86400
+
+*.txt
+  Cache-Control: public, max-age=86400

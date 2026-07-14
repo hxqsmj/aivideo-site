@@ -1,7 +1,7 @@
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
-const token = "cfut_FJwbVlx5mFZmKYJrNNZdVpb2b4O8bPIAnPPTYuD5c6cf9b91";
+const token = process.env.CLOUDFLARE_API_TOKEN;
 
 function api(method, path, body) {
   return new Promise((resolve, reject) => {
